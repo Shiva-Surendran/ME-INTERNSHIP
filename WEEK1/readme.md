@@ -1,11 +1,11 @@
 <h1>TABLE</h1>
-<img src="ss1.png" width=200px height=200px>
+<img src="ss1.png" width=700px height=500px>
 <BR>
 <h1>FORM</h1>
 <img src="ss3.png">
 <BR>
 <h1>GALLERY</h1>
-<img src="ss2.png" width=200px height=200px>
+<img src="ss2.png" width=700px height=500px>
 
 
 
