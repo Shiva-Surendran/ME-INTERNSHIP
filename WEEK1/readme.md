@@ -5,7 +5,7 @@
 <img src="ss4.png">
 <BR>
 <h1>GALLERY</h1>
-<img src="ss2.png">
+<img src="ss2.png" height=500px>
 
 
 
