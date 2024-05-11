@@ -1,1 +1,81 @@
 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f0f0f0;
+        }
+
+        .cen {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        form {
+            width: 50%;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 12px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"] {
+            background-color: #0056b3;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cen">
+        <h2>Form </h2>
+        <form>
+            <label>Enter name</label>
+            <input type="text" placeholder="Name"><br><br>
+            <label>Enter age</label>
+            <input type="text" placeholder="Age"><br><br>
+            <label>Enter semester</label>
+            <input type="text" placeholder="Semester"><br><br>
+            <label>College name</label>
+            <input type="text" value="Cusat" readonly><br><br>
+            <label>Enter course</label>
+            <input type="text" placeholder="Course"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
